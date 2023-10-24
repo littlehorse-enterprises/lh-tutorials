@@ -23,16 +23,17 @@ dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.1-jre'
 
-    // LittleHorse!
+    // Add LittleHorse Client
     implementation 'io.littlehorse:littlehorse-client:0.5.1'
 }
 
 application {
     // Define the main class for the application.
-    mainClass = 'lhjava.quickstart.App'
+    mainClass = 'lh.quickstart.App'
 }
 
-tasks.named('test') {
-    // Use JUnit Platform for unit tests.
-    useJUnitPlatform()
+// This is a nice-to-have which lets us use the Reflection API to determine the names
+// of parameters for Task Functions and match them to the TaskDef param names.
+compileJava {
+    options.compilerArgs << '-parameters'
 }

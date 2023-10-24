@@ -38,4 +38,6 @@ Using the local LittleHorse Server takes about 15-25 seconds to start up, but it
 
 ## Repo Map
 
-* [**Basic Java Quickstart**](./00-java-quickstart)
+* [**Create `TaskDef`**](./01-java-create-taskdef)
+  * Register your first Task Definition (`TaskDef`) using Java!
+
