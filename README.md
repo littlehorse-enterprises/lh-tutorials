@@ -2,6 +2,13 @@
 <img alt="LH" src="https://littlehorse.dev/img/logo.jpg" width="50%">
 </p>
 
+- [LittleHorse Tutorials](#littlehorse-tutorials)
+  - [Common Installation](#common-installation)
+    - [Install the CLI](#install-the-cli)
+    - [Get the LH Server](#get-the-lh-server)
+  - [Repo Map](#repo-map)
+
+
 # LittleHorse Tutorials
 
 This repository contains the cleaned-up code from the series of tutorial videos on our YouTube channel.
